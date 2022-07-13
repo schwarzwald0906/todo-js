@@ -17,6 +17,9 @@ button:hover {
   color: #fff;
   cursor: pointer;
 }
+li {
+  margin-right: 8px;
+}
 .input-area {
   background-color: #c1ffff;
   width: 400px;
@@ -40,4 +43,15 @@ button:hover {
   padding: 8px;
   margin: 8px;
   border-radius: 8px;
+}
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
