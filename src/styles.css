@@ -1,6 +1,22 @@
 body {
   font-family: sans-serif;
 }
+input {
+  border-radius: 16px;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+}
+button {
+  padding: 4px 16px;
+  border-radius: 16px;
+  border: none;
+}
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
 .input-area {
   background-color: #c1ffff;
   width: 400px;
