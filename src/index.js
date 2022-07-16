@@ -22,7 +22,10 @@ const onClickAdd = () => {
 
   const deleteButton = document.createElement("button");
   deleteButton.innerText = "削除";
-  deleteButton.addEventListener("click", () => console.log("削除"));
+  deleteButton.addEventListener("click", () => {
+    const deleteTarget = deleteButton.parentNode;
+    document.getElementById("incomplete-list").removeChild(deleteTarget);
+  });
 
   //画面表示
   div.appendChild(li);
