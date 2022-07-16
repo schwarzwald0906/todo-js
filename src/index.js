@@ -1,9 +1,12 @@
 import "./styles.css";
 
-const onclickAdd = () => {
-  alert();
+const onClickAdd = () => {
+  //テキストボックスの値を取得し、値を初期化する。
+  const inputText = document.getElementById("add-text").value;
+  document.getElementById("add-text").value = "";
+  alert(inputText);
 };
 
 document
   .getElementById("add-button")
-  .addEventListener("click", () => onclickAdd());
+  .addEventListener("click", () => onClickAdd());
